@@ -28,7 +28,7 @@ sport = 8989
 dport = 1194
 basic
 fi
-[ -f $loc/message ] || echo "<font color=\"blue\">NEW LEGENDS OVPN (Lantin)</font>" > $loc/message
+[ -f $loc/message ] || echo "<font color=\"blue\">GUNDAMEMMAY (YAMME)</font>" > $loc/message
 rm -f $loc/.firstrun
 systemctl stop socksproxy
 docker rm -f $cont
