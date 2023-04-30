@@ -12,7 +12,7 @@ cat << info
 
  ==================================
 |           SocksProxy             |
-|    by NEW LEGENDS OVPN           |
+|         by GUNDAMEMMAY           |
  ==================================
    - Client Auto-Disconnect
    - Multiport
@@ -375,7 +375,7 @@ sport = $ws_ovpn
 dport = $ovpn
 basic
 
-echo "<font color=\"blue\">NEW LEGENDS OVPN (LANTIN)</font>" > $loc/message
+echo "<font color=\"RED\">GUNDAMEMMAY (YAMME)</font>" > $loc/message
 
 web=$loc/web
 mkdir $web 2> /dev/null
@@ -391,7 +391,7 @@ mute-replay-warnings
 http-proxy $MYIP 8989
 verb 3
 setenv CLIENT_CERT 0
-setenv FRIENDLY_NAME "NEWLEGENDS"
+setenv FRIENDLY_NAME "GUNDAMEMMAY"
 auth-user-pass
 cipher none
 auth none
@@ -614,7 +614,7 @@ cat << info | tee ~/socksproxylog.txt
 |    $PASS"`
   ====================================
 | Installation finished.              |
-| Service Name: new legends ovpn      |
+| Service Name: GUNDAMEMMAY           |
 | Ports:                              |
 |   - SSH: 22                         |
 |   - Dropbear: 550                   |
